@@ -1,0 +1,22 @@
+{
+  "name": "akay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "project.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akay254/quizomania-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akay254/quizomania-project/issues"
+  },
+  "homepage": "https://github.com/Akay254/quizomania-project#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
