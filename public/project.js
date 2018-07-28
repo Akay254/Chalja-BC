@@ -184,7 +184,7 @@ function question9()
     points-=1;
     }
     else if(document.getElementById ("u3").checked)
-    { document.getElementById("cir9").style.fill="red"
+    { document.getElementById("cir9").style.fill="red"   
         ab=document.getElementById("u3").value
     points-=1;
     }
@@ -195,7 +195,7 @@ alert(ab);
 }
 function question10()
 {
-    if(document.getElementById("ralph").value=="RalphLauren"||document.getElementById("ralph").value=="RALPHLAUREN"||document.getElementById("ralph").value=="Ralphlauren"||document.getElementById("ralph").value=="ralphlauren")
+    if(document.getElementById("ralph").value=="RalphLauren"||document.getElementById("ralph").value=="RALPHLAUREN"||document.getElementById("ralph").value=="Ralphlauren"||document.getElementById("ralph").value=="ralphlauren"||document.getElementById("ralph").value=="ralph lauren"||document.getElementById("ralph").value=="Ralph lauren"||document.getElementById("ralph").value=="Ralph lauren")
  {  document.getElementById("cir10").style.fill="green"
    alert("Correct");
  points+=4;
