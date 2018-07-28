@@ -2,6 +2,7 @@
 var points=0;
 function show()
 {alert("Thanks,welcome to QuizoMania")
+
 var ghy;
 ghy=document.getElementById("name").value;
 document.getElementById("bkchodi").innerHTML="Hello " + ghy;
@@ -209,6 +210,8 @@ function finalfunction()
 var ghy;
   ghy=document.getElementById("name").value;
   document.getElementById("score").innerHTML= ghy + ",you have got " + points +"points";
-
-
+  if(points>=30){document.getElementById("fanlevel").innerHTML="You are a Friends God Dude!";
+  if((points>=20)||(points<30)){document.getElementById("fanlevel").innerHTML="Well done,Fan,but it could have been better"}
+  else{document.getElementById("fanlevel").innerHTML="Call yourselves a Friends Fan,I doubt that! xD"}
+  }
 }

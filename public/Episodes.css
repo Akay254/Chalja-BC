@@ -1,0 +1,20 @@
+body{
+    
+    animation-name:Fraa;
+    animation-duration:10s;
+ animation-iteration-count:infinite;
+-webkit-animation-name:Fraa;
+    -webkit-animation-duration:10s;
+ -webkit-animation-iteration-count:infinite;
+ 
+
+}
+@keyframes Fraa{
+    0% {background-color:lightblue;}
+    20% {background-color:orange;}
+    40% {background-color:lightgoldenrodyellow;}
+    60% {background-color: yellow;}
+    80% {backgroound-color: green;}
+    100% {background-color:pink;}
+
+} 

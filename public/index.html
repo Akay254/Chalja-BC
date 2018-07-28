@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>QuizoMania</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <link href="project.css" rel="stylesheet"/>
         <script src="project.js"></script>
@@ -9,13 +10,12 @@
     <body>
     
     <h1 class="Starting">QuizoMania</h1>
-    <button id="Seasons"><a href="seasons.html" />Seasons</a></button>
-    <button id="Episodes">    Episodes</button>
-    <button id="Characters">Characters</button>
-    <button id="FanBase">FanBase</button>
-    <h1 id="a1" align="right"></h1>
+    <button id="Seasons"><a href="seasons.html" /><h2>Seasons</h2></a></button>
+    <button id="Episodes"><a href ="Episodes.html"/><h2>Episodes</h2></a></button>
+    <button id="Characters"><a href="Characters.html"/><h2>Characters</h2></a></button>
+    <h1 id="a1"align="right"></h1>
     <img src="https://cdn.suwalls.com/wallpapers/tv-shows/friends-28044-1920x1200.jpg"class="mainimg"alt="">
-    <embed src="D:\Movies\Avengers.Infinity.War.2018.720p.Pre.DVD.x264.Ytsmovies.site\tumblr_lxwraaydmw1r5jk1so1 (1).mp3" autostart="true" loop="true"> 
+    <embed src="D:\Movies\Avengers.Infinity.War.2018.720p.Pre.DVD.x264.Ytsmovies.site\tumblr_lxwraaydmw1r5jk1so1 (1).mp3" autostart="true" loop="true"> (Stop this when the audio question comes up)
     <marquee><h1 class="heading">This is F.R.I.E.N.D.S Quiz ! This would be testing your knowledge about the series.</h1></marquee>
     <a href="https://www.udemy.com/"/>
 <div class="ad">
@@ -45,7 +45,7 @@
        <h3 id="introo">Remember you have to press the Submit button in order to submit,nothing else would submit the answer.</h3>
        <h3 id="introo">In the end,we would be telling you your score and your level of being a Friends Fan.</h3>
        <h2 class="begin">So lets begin !</h2>
-        <h3 class="question">Question No 1:</h3>
+        
         <h3 id="question">Number of sisters Joey has?</h3>
         <input type="number" name="character" id="abc" align="center"/>
         
@@ -55,14 +55,14 @@
         </svg>
           
         <div id="creative2">
-        <h3>Question No 2:</h3>
+        
         <h3 id="question">What is the name of Phoebe's identical twin?</h3>       
-           <input type="radio"name="nam"value="Incorrect"id="r1" />Elizabeth<br/>
-           <input type="radio" name="nam"value="Incorrect"id="r2"/>Emily<br/>
-           <input type="radio"name="nam"value="Correct"id="r3"/>Ursula
-           <br/>
-           <input type="radio"name="nam"value="Incorrect"id="r4"/>Carol<br/>
-           <button onclick="frends(); return false">Submit</button>
+        <h4 id="Options"> <input type="radio"name="nam"value="Incorrect"id="r1" />Elizabeth</h4>
+        <h4 id="Options"><input type="radio" name="nam"value="Incorrect"id="r2"/>Emily</h4>
+        <h4 id="Options"> <input type="radio"name="nam"value="Correct"id="r3"/>Ursula</h4>
+           
+           <h4 id="Options"> <input type="radio"name="nam"value="Incorrect"id="r4"/>Carol</h4>
+           <button onclick="frends(); return false"id="aler">Submit</button>
            
            <svg id="ci" height="100" width="100">
             <circle id="cir2" cx="50" cy="60" r="25" stroke="black" stroke-width="3" fill="black" />
@@ -70,20 +70,20 @@
             
            </div>
            
-        <h3>Question No 3:</h3>
+        
         <h3 id="question">Which one actor/actress on the show also
        directed some of episodes of the show?</h3>
-       <input type="radio" id="z1"name="avc"value="Correct"/>David Schwimmer<br/>
-       <input type="radio" id="z2"name="avc"value="Incorrect"/>Courteney Cox<br/>
-       <input type="radio" id="z3"name="avc"value="Incorrect"/>Lisa Kudrow<br/><br/>
-       <button onclick="question3() ; return false">Submit</button>
+       <h4 id="Options"><input type="radio" id="z1"name="avc"value="Correct"/>David Schwimmer</h4>
+       <h4 id="Options"><input type="radio" id="z2"name="avc"value="Incorrect"/>Courteney Cox</h4>
+       <h4 id="Options"> <input type="radio" id="z3"name="avc"value="Incorrect"/>Lisa Kudrow</h4>
+       <button onclick="question3() ; return false"id="aler">Submit</button>
        <svg id="ci" height="100" width="100">
         <circle id="cir3" cx="50" cy="60" r="25" stroke="black" stroke-width="3" fill="black" />
       </svg>
     <h3 id="question">Identify the person to which the song is sung to:</h3>
   <audio src="C:\Users\Akshit\Downloads\Ross and Rachel I Like Big Butts  HD.mp3" controls></audio>
       <input type="text"name="answert"id="Emma"/>
-      <button onclick="question4() ; return false">Submit</button>
+      <button onclick="question4() ; return false"id="aler">Submit</button>
       <svg id="ci" height="100" width="100">
         <circle id="cir4" cx="50" cy="60" r="25" stroke="black" stroke-width="3" fill="black" />
       </svg>
@@ -100,48 +100,50 @@
       
      <h3 id="question">What was the name of Chandler"s roommate after Joey moved out?</h3>
      <input type="text"id="roommate"/><br/>
-     <button onclick="question6() ;return false">Submit</button>
+     <button onclick="question6() ;return false"id="aler">Submit</button>
      <svg id="ci" height="100" width="100">
       <circle id="cir6" cx="50" cy="60" r="25" stroke="black" stroke-width="3" fill="black" />
     </svg>
              
         <h3 id="question">How many babies were born on the show?</h3>
-        <input id="f1"type="radio"name="cool" value="Incorrect"/> 5
-        <input id="f2" type="radio"name="cool" value="Incorrect"/>6
-      <br/><input id="f3" type="radio"name="cool" value="Correct"/>7 
-      <input id="f4" type="radio"name="cool" value="Incorrect"/>8   
-      <button onclick="question7() ;  return false">Submit</button>
+        <h4 id="Options"> <input id="f1"type="radio"name="cool" value="Incorrect"/> 5</h4>
+        <h4 id="Options">     <input id="f2" type="radio"name="cool" value="Incorrect"/>6 </h4>
+        <h4 id="Options">     <br/><input id="f3" type="radio"name="cool" value="Correct"/>7 </h4>
+        <h4 id="Options">  <input id="f4" type="radio"name="cool" value="Incorrect"/>8  </h4>
+      <button onclick="question7() ;  return false"id="aler">Submit</button>
       <svg id="ci" height="100" width="100">
         <circle id="cir7" cx="50" cy="60" r="25" stroke="black" stroke-width="3" fill="black" />
       </svg>
         
         <h3 id="question">What is Chandler's Middle name?(No options here!)</h3>
         <input type="text"id="Muriel"/><br/>
-        <input type="button" value="Submit" onclick="question8() ; return false"/>
+        <input type="button" value="Submit" onclick="question8() ; return false"id="aler"/>
         <svg id="ci" height="100" width="100">
           <circle id="cir8" cx="50" cy="60" r="25" stroke="black" stroke-width="3" fill="black" />
         </svg>
         <h3 id="question">Joey's penguin's toy name?</h3>
-        <input id="u1"type="radio"name="co" value="Incorrect"/>Pugsy
-        <input id="u2" type="radio"name="co" value="Incorrect"/>Bugsy
-      <br/><input id="u3" type="radio"name="co" value="Incorrect"/>Hugsy
-      <input id="u4" type="radio"name="co" value="Correct"/>Huggsy
-    <button onclick="question9() ; return false">Submit</button>
+        <h4 id="Options">  <input id="u1"type="radio"name="co" value="Incorrect"/>Pugsy</h4>
+        <h4 id="Options"> <input id="u2" type="radio"name="co" value="Incorrect"/>Bugsy</h4>
+        <h4 id="Options">  <input id="u3" type="radio"name="co" value="Incorrect"/>Hugsy</h4>
+        <h4 id="Options">   <input id="u4" type="radio"name="co" value="Correct"/>Huggsy</h4>
+    <button onclick="question9() ; return false"id="aler">Submit</button>
     <svg id="ci" height="100" width="100">
       <circle id="cir9" cx="50" cy="60" r="25" stroke="black" stroke-width="3" fill="black" />
     </svg>
       
     <h3 id="question">One of the designers Rachel worked for?(Hint:starting with R)</h3>
    <input type="text" id="ralph"/>
-   <input type="button" value="Submit" onclick="question10() ; return false"/>
+   <input type="button" value="Submit" onclick="question10() ; return false"id="aler"/>
    <svg id="ci" height="100" width="100">
     <circle id="cir10" cx="50" cy="60" r="25" stroke="black" stroke-width="3" fill="black" />
   </svg>
      
       <h1>So,now your total score would be displayed:</h1>
-      <button onclick="finalfunction() ;return false"/>Tell me my score</button>
+      <button onclick="finalfunction() ;return false"id="fool"/>Tell me my score</button>
         <h1 id="score"></h1>
         <h1 id="fanlevel"></h1>
-        <h1 align="center">Thanks for visiting! Have a great day!</h1>        
+        <br/>
+        <br/>
+        <h1 id="lastt"align="center">Thanks for visiting! Have a great day!</h1>        
     </body>
 </html>
