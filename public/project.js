@@ -195,7 +195,7 @@ alert(ab);
 }
 function question10()
 {
-    if(document.getElementById("ralph").value=="RalphLauren"||document.getElementById("ralph").value=="RALPHLAUREN"||document.getElementById("ralph").value=="Ralphlauren"||document.getElementById("ralph").value=="ralphlauren"||document.getElementById("ralph").value=="ralph lauren"||document.getElementById("ralph").value=="Ralph lauren"||document.getElementById("ralph").value=="Ralph lauren")
+    if(document.getElementById("ralph").value=="RalphLauren"||document.getElementById("ralph").value=="RALPHLAUREN"||document.getElementById("ralph").value=="Ralphlauren"||document.getElementById("ralph").value=="ralphlauren"||document.getElementById("ralph").value=="ralph lauren"||document.getElementById("ralph").value=="Ralph lauren"||document.getElementById("ralph").value=="Ralph Lauren")
  {  document.getElementById("cir10").style.fill="green"
    alert("Correct");
  points+=4;
